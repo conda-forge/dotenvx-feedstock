@@ -4,7 +4,7 @@
 
 [project]
 name = "dotenvx-feedstock"
-version = "3.44.9"
+version = "3.45.2"
 description = "Pixi configuration for conda-forge/dotenvx-feedstock"
 authors = ["@conda-forge/dotenvx"]
 channels = ["conda-forge"]
@@ -18,10 +18,10 @@ rattler-build = "*"
 [tasks]
 inspect-all = "inspect_artifacts --all-packages"
 build = "rattler-build build --recipe recipe"
-"build-linux_64_nodejs20" = "rattler-build build --recipe recipe -m .ci_support/linux_64_nodejs20.yaml"
-"inspect-linux_64_nodejs20" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_nodejs20.yaml"
 "build-linux_64_nodejs22" = "rattler-build build --recipe recipe -m .ci_support/linux_64_nodejs22.yaml"
 "inspect-linux_64_nodejs22" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_nodejs22.yaml"
+"build-linux_64_nodejs20" = "rattler-build build --recipe recipe -m .ci_support/linux_64_nodejs20.yaml"
+"inspect-linux_64_nodejs20" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_nodejs20.yaml"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
