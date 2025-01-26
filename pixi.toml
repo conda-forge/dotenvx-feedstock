@@ -4,7 +4,7 @@
 
 [project]
 name = "dotenvx-feedstock"
-version = "3.45.2"
+version = "3.45.4"
 description = "Pixi configuration for conda-forge/dotenvx-feedstock"
 authors = ["@conda-forge/dotenvx"]
 channels = ["conda-forge"]
