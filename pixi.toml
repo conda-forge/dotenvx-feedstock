@@ -18,10 +18,10 @@ rattler-build = "*"
 [tasks]
 inspect-all = "inspect_artifacts --all-packages"
 build = "rattler-build build --recipe recipe"
-"build-linux_64_nodejs22" = "rattler-build build --recipe recipe -m .ci_support/linux_64_nodejs22.yaml"
-"inspect-linux_64_nodejs22" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_nodejs22.yaml"
 "build-linux_64_nodejs20" = "rattler-build build --recipe recipe -m .ci_support/linux_64_nodejs20.yaml"
 "inspect-linux_64_nodejs20" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_nodejs20.yaml"
+"build-linux_64_nodejs22" = "rattler-build build --recipe recipe -m .ci_support/linux_64_nodejs22.yaml"
+"inspect-linux_64_nodejs22" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_nodejs22.yaml"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
