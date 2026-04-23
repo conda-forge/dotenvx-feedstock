@@ -1,5 +1,5 @@
 context:
-  version: "1.61.4"
+  version: "1.61.5"
 
 package:
   name: dotenvx
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/@dotenvx/dotenvx/-/dotenvx-${{ version }}.tgz
-  sha256: 108cf6865dcfd91d4b905f6a88afa5dfe249044902f3e4deee772eabd7ac735e
+  sha256: ed369f6a8d4f0c4e94d3619659e0db67e12210a86913641734638e7d80b75900
 
 build:
   number: 0
